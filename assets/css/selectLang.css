@@ -1,0 +1,74 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	padding-top: 10em;
+	background-color: #444;
+}
+
+/*Selections*/
+.selections {
+	text-align: center;
+	color: #FFFFFF;
+	font-family: sans-serif;
+}
+
+.selections h1 {
+	font-size: 50px;
+}
+
+.selections form {
+	padding-top: 20px;
+}
+
+.selections .error {
+	color: rgb(255, 0, 0);
+	font-size: 25px;
+}
+
+.selections form select {
+	padding: 20px;
+	font-size: 30px;
+	outline: none;
+	transition: 1s;
+	padding-right: 10px;
+}
+
+.selections form select:hover, .selections form select:focus {
+	padding: 30px;
+}
+
+.selections form select option {
+	color: #FFFFFF;
+	background-color: #111;
+}
+
+.selections form button {
+	padding: 20px;
+	font-size: 25px;
+	background-color: #8fb2fc;
+	border: none;
+	transition: 1s;
+}
+
+.selections form button:hover {
+	border: 5px solid #a97ae8;
+}
+
+.selections footer {
+	padding-top: 30px;
+	font-size: 30px;
+}
+
+.selections footer a {
+	text-decoration: none;
+	color: blue;
+	transition: 1s;
+}
+
+.selections footer a:hover {
+	color: #cdb8e9;
+}
+/*End Selections*/

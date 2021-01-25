@@ -1,0 +1,204 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+:root {
+	--white-color: #FFFFFF;
+	--bg-color: #333;
+	--blue-color: blue;
+	--hastag-color: #004760;
+	--hastagHover-color: #22cbd7;
+}
+
+/*Scrollbar*/
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+::selection{
+  background: rgb(0,123,255,0.3);
+}
+/*End Scrollbar*/
+
+body {
+	background: var(--bg-color);
+}
+
+/*Navbar*/
+/*.navbar {
+	font-family: Arial, Helvetica, sans-serif;
+	padding-top: 10px;
+	top: 0;
+	position: sticky !important;
+	background-color: #8166c6;
+	padding-bottom: 25px;
+	color: var(--white-color);
+	transition: all 0.3s ease;
+}
+
+.navbar.sticky{
+  background: #1b1b1b;
+  padding: 20px 0;
+  box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.1);
+}
+
+.navbar .navbar-brand {
+	font-size: 30px;
+	margin-top: 10px;
+	padding-left: 20px;
+	cursor: pointer;
+}
+
+.navbar .navbar-brand a {
+	text-decoration: none;
+	color: var(--navbar-text-color);
+}
+
+.navbar .navbar-brand a:hover {
+	color: var(--blue-color);
+}
+
+.navbar ul {
+	margin-top: 20px;
+	margin-left: 200px;
+	display: flex;
+}
+
+.navbar ul li {
+	list-style-type: none;
+	margin-top: -4vh;
+	flex-basis: auto;
+	padding-left: 20px;
+}
+
+.navbar ul li a {
+	float: left;
+	display: block;
+	font-size: 25px;
+	color: var(--white-color);
+	text-decoration: none;
+	transition: 0.5s;
+}
+.navbar ul li a:hover {
+	color: var(--blue-color);
+}*/
+
+/*End Navbar*/
+
+/*Raznar Head*/
+.raznar-head {
+	font-family: sans-serif;
+	text-align: center;
+	padding-top: 10em;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+.raznar-head img {
+	border-radius: 50%;
+	width: 250px;
+	border: 3px solid #f48383;
+}
+
+.raznar-head h1 {
+	font-size: 50px;
+	color: var(--white-color);
+}
+
+.raznar-head p {
+	padding-top: 15px;
+	font-size: 25px;
+	color: var(--white-color);
+}
+
+.raznar-head p #lang_about {
+	font-size: 20px;
+	font-family: monospace;
+}
+
+/*End Raznar Head*/
+
+/*Raznar Testimoni*/
+.raznar-testi {
+	margin-left: 30px;
+	text-align: center;
+	font-family: sans-serif;
+	padding-top: 10vh;
+}
+
+.raznar-testi h2 {
+	font-size: 40px;
+	color: var(--white-color);
+}
+
+.raznar-testi h2 a {
+	text-decoration: none;
+	color: var(--hastag-color);
+	transition: 0.5s;
+}
+
+.raznar-testi h2 a:hover {
+	color: var(--hastagHover-color);
+	text-decoration: underline;
+}
+
+.raznar-testi .testimonis {
+	display: flex;
+	flex-basis: auto;
+	flex-wrap: wrap;
+	padding-top: 20px;
+}
+
+.raznar-testi .testimoni {
+	color: var(--white-color);
+	padding-left: 10px;
+	flex: 0 1 24%;
+	background-color: #9088d5;
+	transition: 1s;
+	width: 100%;
+	padding-bottom: 30px;
+	padding-right: 10px;
+	margin-left: 50px;
+	margin-right: 20px;
+	margin-top: 20px;
+	border-radius: 10%;
+}
+
+.raznar-testi .testimoni p {
+	font-size: 18px;
+}
+
+.raznar-testi .testimoni:hover {
+	box-shadow: 0 8px 16px #000000;
+}
+
+.raznar-testi .testimoni img {
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+	padding-top: 30px;
+}
+/*End Raznar Testimoni*/
+
+/*Footer*/
+.footer .contents ul li {
+	margin-top: 10px;
+}
+.footer .contents ul li a:hover {
+	color: var(--blue-color);
+}
+/*End footer*/
+
+.show {
+	transition: opacity 4000ms;
+}
+
+.hide {
+	opacity: 0;
+}
